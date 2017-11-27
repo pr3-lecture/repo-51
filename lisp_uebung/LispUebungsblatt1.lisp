@@ -1,3 +1,5 @@
+;Dennis-Immanuel Czogalla, MatrikelNr: 1410116
+
 ; Aufgabe 1:
 
 ; a)
