@@ -9,8 +9,8 @@
 (defun neues-vorletztes (param1 param2)
   (append
     (append
-      (loop for x from 1 to (- (list-length param2) 1)
-        collect (nth x param)) param1) (last param2)))
+      (loop for x from 0 to (- (list-length param2) 2)
+        collect (nth x param2)) param1) (last param2)))
 
 ; c)
 (defun my-length (param) (loop for x in param count x))
