@@ -21,3 +21,4 @@ decrypt: runCrypter.o crypto.o
 
 runtest: cryptoTest.o crypto.o
 	gcc -o test cryptoTest.o crypto.o
+	./test
