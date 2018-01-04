@@ -1,0 +1,4 @@
+ToolSet: w64 3.3@C:\Maul\x86_64-w64-mingw32
+Options: 
+
+Options:-DCMAKE_C_COMPILER=C:/Maul/bin/gcc-4.8.3.exe

@@ -55,4 +55,8 @@ int encrypt(KEY key, const char* input, char* output);
  */
 int decrypt(KEY key, const char* cypherText, char* output);
 
+int xorCrypt(KEY key, const char* cypherText, char* output);
+
+int illegalChars(const char* input, const char* allowedchars);
+
 #endif /* __CRYPTO_H__ */
